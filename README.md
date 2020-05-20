@@ -34,8 +34,11 @@ A simple python script to combine pictures of several persons  to make a new ima
   * facedetect.py 
     
     This script mainly used to detect face landmarks and it take three arguments
+         you have to download the dataset provided by opencv and extract it in the this folder 
+         
+                http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
     
-         $ python facedetect.py  shape_predictor_68_face_landmarks.dat  images
+                $ python facedetect.py  shape_predictor_68_face_landmarks.dat  images
           
      shape predictor is dataset of images in .dat format
      
@@ -47,6 +50,15 @@ A simple python script to combine pictures of several persons  to make a new ima
       
         $ python mix.py 
     This script will combine the images into a new image and popup the image in the screen
-  
+    
+    
+ ## EXECUTION AT A GLANCE 
+     
+     $ git clone https://github.com/josephnedher/face-average.git
+     $ cd face-average 
+       extract your .dat file here
+     $ mkdir images   
+       add your images in the images folder
+     $ python facedetect.py  shape_predictor_68_face_landmarks.dat  images
         
         
