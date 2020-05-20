@@ -4,9 +4,6 @@ import os
 import dlib
 import glob
 from skimage import io
-#k=input("Enter the roll numbers to average with spaces").split()
-#for z in k:
-#    subprocess.Popen(['./test.py',z])
 if len(sys.argv) != 3:
     print(
           "Give the path to the trained shape predictor model as the first "
