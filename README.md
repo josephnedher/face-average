@@ -24,12 +24,29 @@ A simple python script to combine pictures of several persons  to make a new ima
    In the folder there are three files
    
   * fetch.py
+  
      I really write this script for fetching my college students image to the folder images.
      
          $ python fetch.py username1 username2  .......
      
      I used sys.argv for this you can type as many username as you wanted generally the admission number.If anyone who doesnt      belong  to our college or you want other images to combine then just go to next step
      
+  * facedetect.py 
     
+    This script mainly used to detect face landmarks and it take three arguments
+    
+         $ python facedetect.py  shape_predictor_68_face_landmarks.dat  images
+          
+     shape predictor is dataset of images in .dat format
+     
+     images is the important folder to add the images in specific format 
+     
+     ** note please before you execute this script please add the images in images folder and execute the script
+     
+  * mix.py
+      
+        $ python mix.py 
+    This script will combine the images into a new image and popup the image in the screen
+  
         
         
