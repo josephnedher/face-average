@@ -23,6 +23,6 @@ A simple python script to combine pictures of several persons  to make a new ima
     
       In the folder there are three files
       
-      *fetch.py
+      *  fetch.py
         
         
