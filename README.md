@@ -16,7 +16,13 @@ A simple python script to combine pictures of several persons  to make a new ima
      $ pip install opencv-python
      $ pip install dlib
   Installation of dlib may take some time  so have a coffee
-  
   I personally recommend you to try the all installation on a virtual enviornment
- 
-  for detailed installation process you can visit here https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/
+  For detailed installation process you can visit here https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/
+  
+  ## HOW TO FIRE THE SCRIPT
+    
+      In the folder there are three files
+      
+      *fetch.py
+        
+        
