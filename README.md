@@ -21,8 +21,15 @@ A simple python script to combine pictures of several persons  to make a new ima
   
   ## HOW TO FIRE THE SCRIPT
     
-      In the folder there are three files
-      
-      *  fetch.py
+   In the folder there are three files
+   
+  * fetch.py
+     I really write this script for fetching my college students image to the folder images.
+     
+         $ python fetch.py username1 username2  .......
+     
+     I used sys.argv for this you can type as many username as you wanted generally the admission number.If anyone who doesnt      belong  to our college or you want other images to combine then just go to next step
+     
+    
         
         
