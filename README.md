@@ -56,9 +56,11 @@ A simple python script to combine pictures of several persons  to make a new ima
      
      $ git clone https://github.com/josephnedher/face-average.git
      $ cd face-average 
+     $ cd college
        extract your .dat file here
      $ mkdir images   
        add your images in the images folder
      $ python facedetect.py  shape_predictor_68_face_landmarks.dat  images
+     $ python mix.py
         
         
